@@ -1,0 +1,25 @@
++ hi
+- I'm a bot that can answer questions about the Clifton Softball League. Ask me anything! {@ my button set}
+
++ my button set
+- ^buttons(Where, When, How, What)
+
++ where
+- Near the Water Tower on Durdham Down, in Bristol. ^link("https://www.google.co.uk/maps/place/Downs+Water+Tower/@51.4703853,-2.6146192,17z/data=!4m5!3m4!1s0x48718dec44b56c0b:0xc1b5cac904f1a751!8m2!3d51.4720916!4d-2.6179775","BS9 1FG") {@ my button set}
+
++ when
+- Every Wednesday from 6.30pm, in the summer. {@ my button set}
+
++ how
+- xxxxxx list of teams & contacts. {@ my button set}
+
++ what
+- yyyyyy 2 teams & pitch & bat & ball. ^image("https://fxasports.com/wp-content/uploads/2017/01/Softball-on-Field-with-Blurry-background.jpg") {@ my button set}
+
++ [*] help [*]
+- Just pick a button! {@ my button set}
+
++ *
+- Sorry, but I don't understand the question.
+- Would you mind rephrasing that?
+- I'm afraid I don't know the answer.
