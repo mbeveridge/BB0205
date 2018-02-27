@@ -1,0 +1,11 @@
++ launchrequest
+- Here's your Star Island Fact: {@ factlist}
+
++ factlist
+- fact1 {@ farewell}
+- fact2 {@ farewell}
+- fact3 {@ farewell}
+- fact4 {@ farewell}
+
++ farewell
+- Have a great day. ^alexaEndSession(true)
