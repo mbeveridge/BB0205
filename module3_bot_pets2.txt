@@ -14,16 +14,16 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
 * ${{result.action}} == smalltalk.confirmation.no => <set catvar=no> {@ answered <get dogvar> <get catvar>}
 
 + answered yes yes
-- Both can be great pets!
+- Both can be great pets! {@ post results}
 
 + answered yes no
-- Woof! Dogs are the best.
+- Woof! Dogs are the best. {@ post results}
 
 + answered no yes
-- Meow! Just remember, dogs have owners. Cats have servants.
+- Meow! Just remember, dogs have owners. Cats have servants. {@ post results}
 
 + answered no no
-- Maybe you're more of a bird person.
+- Maybe you're more of a bird person. {@ post results}
 
 + fish trigger
 - OK! Fish are cool, too!
@@ -41,6 +41,9 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
 ! var apiai = Bearer d0b7dbe7261e4327a9feeaf76bcab50d
 
 + post results
-$ POST YOUR_AIRTABLE_URL_GOES_HERE {"headers": {"Authorization": "Bearer YOUR_AIRTABLE_API_KEY_GOES_HERE", "Content-Type": "application/json"}, "body": {"fields": {"User":"<get _platformId>", "Dogs": "<get dogvar>", "Cats": "<get catvar>" }}}
+$ POST https://api.airtable.com/v0/appe4kNitYb2qoYKQ/Table%201 {"headers": {"Authorization": "Bearer YOUR_AIRTABLE_API_KEY_GOES_HERE", "Content-Type": "application/json"}, "body": {"fields": {"User":"<get _platformId>", "Dogs": "<get dogvar>", "Cats": "<get catvar>" }}}
 * ${{__status}} != 200 => ${{error.message}}
 - See you soon!
+
+
+--Above, replace YOUR_AIRTABLE_API_KEY_GOES_HERE with 'secret' key from https://airtable.com/account
