@@ -25,8 +25,12 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
 + answered no no
 - Maybe you're more of a bird person.
 
++ fish trigger
+- OK! Fish are cool, too!
+
 + *
 $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call>&lang=en&sessionId=<_platformId> {"headers":{"Content-Type":"application/json", "Authorization": "<bot apiai>"}}
+* ${{result.action}} == animal.fish => {@ fish trigger}
 * ${{result.fulfillment.speech}} != "" => ${{result.fulfillment.speech}} 
 - Sorry, I have no idea what you just said.
 
@@ -34,4 +38,4 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
     return encodeURIComponent(args[0])
 < object
 
-! var apiai = Bearer putyourapikeyhere
+! var apiai = Bearer d0b7dbe7261e4327a9feeaf76bcab50d
