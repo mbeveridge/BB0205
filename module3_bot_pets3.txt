@@ -1,4 +1,4 @@
-+ hi
++ launchrequest
 - Do you like dogs?
 
 + *
@@ -26,13 +26,13 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
 - Maybe you're more of a bird person. {@ post results}
 
 + fish trigger
-- OK! Fish are cool, too!
+- OK! Fish are cool, too! ^alexaEndSession(true)
 
 + *
 $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call>&lang=en&sessionId=<_platformId> {"headers":{"Content-Type":"application/json", "Authorization": "<bot apiai>"}}
 * ${{result.action}} == animal.fish => {@ fish trigger}
-* ${{result.fulfillment.speech}} != "" => ${{result.fulfillment.speech}} 
-- Sorry, I have no idea what you just said.
+* ${{result.fulfillment.speech}} != "" => ${{result.fulfillment.speech}} ^alexaEndSession(true)
+- Sorry, I have no idea what you just said. ^alexaEndSession(true)
 
 > object encode_uri javascript
     return encodeURIComponent(args[0])
@@ -41,9 +41,4 @@ $ GET https://api.api.ai/v1/query?v=20150910&query=<call>encode_uri <star></call
 ! var apiai = Bearer d0b7dbe7261e4327a9feeaf76bcab50d
 
 + post results
-$ POST https://api.airtable.com/v0/appe4kNitYb2qoYKQ/Table%201 {"headers": {"Authorization": "Bearer YOUR_AIRTABLE_API_KEY_GOES_HERE", "Content-Type": "application/json"}, "body": {"fields": {"User":"<get _platformId>", "Dogs": "<get dogvar>", "Cats": "<get catvar>" }}}
-* ${{__status}} != 200 => ${{error.message}}
-- See you soon!
-
-
---Above, replace YOUR_AIRTABLE_API_KEY_GOES_HERE with 'secret' key from https://airtable.com/account
+- See you soon! ^alexaEndSession(true)
