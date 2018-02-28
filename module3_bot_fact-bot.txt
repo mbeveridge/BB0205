@@ -2,10 +2,10 @@
 - Here's your Star Island Fact: {@ factlist}
 
 + factlist
-- fact1 {@ farewell}
-- fact2 {@ farewell}
-- fact3 {@ farewell}
-- fact4 {@ farewell}
+- Star Island is 10 miles off the coast of Portsmouth, New Hampshire. {@ farewell}
+- The hotel on the island is "The Oceanic". {@ farewell}
+- There are no natural fresh water reserves on the island. Water is collected from arriving boats, rainwater, and sea water processed to remove the salt. {@ farewell}
+- The pirate Blackbeard visited once and is said to have left both treasure and one of his wives on a nearby island. {@ farewell}
 
 + farewell
 - Have a great day. ^alexaEndSession(true)
