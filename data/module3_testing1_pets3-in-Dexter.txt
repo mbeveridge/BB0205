@@ -1,0 +1,39 @@
+launchrequest
+Do you like dogs?
+fish
+launchrequest
+Do you like dogs?
+yes
+Do you like cats?
+no
+no
+I see.
+Unhandled shortcode type. Type: ALEXA_END_SESSION. This may still render on deployed platforms.
+hi
+Hello!
+Unhandled shortcode type. Type: ALEXA_END_SESSION. This may still render on deployed platforms.
+launchrequest
+Do you like dogs?
+yes
+Do you like cats?
+no
+Woof! Dogs are the best. See you soon!
+fish
+OK! Fish are cool, too!
+Unhandled shortcode type. Type: ALEXA_END_SESSION. This may still render on deployed platforms.
+hi
+Hi!
+Unhandled shortcode type. Type: ALEXA_END_SESSION. This may still render on deployed platforms.
+launchrequest
+Do you like dogs?
+yes
+Do you like cats?
+yes
+Both can be great pets! See you soon!
+fish
+launchrequest
+Do you like dogs?
+fish
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+fish

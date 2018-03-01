@@ -1,0 +1,59 @@
+hi
+Do you like dogs?
+absolutely
+Do you like cats?
+n
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+no
+Okay.
+hi
+Do you like dogs?
+y
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+hi
+Do you like dogs?
+yes
+Do you like cats?
+yes
+Both can be great pets!
+I prefer fish
+OK! Fish are cool, too!
+do you have an aquarium
+Sorry, I have no idea what you just said.
+I prefer fish
+OK! Fish are cool, too!
+let's talk about fish
+OK! Fish are cool, too!
+Do you have an aquarium?
+Sorry, I have no idea what you just said.
+do you have an aquarium
+Do you have an aquarium?
+OK! Fish are cool, too!
+hi
+Do you like dogs?
+Yes
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+hi
+Do you like dogs?
+No
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+hi
+Do you like dogs?
+no
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+hi
+Do you like dogs?
+y
+[Dexter Error] This bot doesn't have a response for that.
+[Dexter Error] messages will be shown to your users. Learn more about Dexter Errors.
+hi
+Do you like dogs?
+yes
+Do you like cats?
+no
+Woof! Dogs are the best.
